@@ -2,12 +2,11 @@
   "name": "webexample",
   "version": "1.0.0",
   "description": "",
-  "main": "webexample.js",
   "scripts": {
+    "build": "webpack",
+    "postinstall": "npm run build",
     "start": "node webexample.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
   }
